@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello Nahid and Dileep!"
+    print("hello world")
+    return "Hello Nahid and Dileep! 1234"
 
 app.run(
     host=getenv("IP", "0.0.0.0"),
